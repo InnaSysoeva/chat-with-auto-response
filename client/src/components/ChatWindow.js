@@ -17,6 +17,7 @@ export const ChatWindow = ({chatId, chatNameSurname, onUpdateChat, onChatRemove,
     const [isRemoveModalOpen, setIsRemoveModalOpen] = useState(false)
     const [toastMessages, setToastMessages] = useState()
     const [isUpdatingMessage, setIsUpdatingMessage] = useState(false)
+    // eslint-disable-next-line
     const [messageId, setMessageId] = useState();
     const [updatedMessageId, setUpdatedMessageId] = useState()
 
@@ -127,6 +128,7 @@ export const ChatWindow = ({chatId, chatNameSurname, onUpdateChat, onChatRemove,
 
       const handleRemoveChatConfirmed = async () => {
           if (chatId) {
+         // eslint-disable-next-line
           const response = await deleteChat(chatId)
           onChatRemove(chatId)
           setName(' ')
