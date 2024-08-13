@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { ChatCard } from './ChatCard.js'
 
 export const ChatList = ({chats, onChatClick }) => {
-
+  // eslint-disable-next-line
   const [allChats, setAllChats] = useState()
 
   useEffect(() => {
