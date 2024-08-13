@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import '../styles/ChatCard.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 import { ProfileImage } from './ProfileImage'
