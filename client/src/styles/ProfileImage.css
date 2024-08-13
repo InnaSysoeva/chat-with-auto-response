@@ -1,0 +1,22 @@
+.profile-img {
+    background-color: rgb(201, 235, 255);
+    position: relative;
+    overflow: visible;
+    height: 45px;
+    width: 45px;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+
+.profile-img div:first-child {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+.fa, .fa-check-circle-o {
+    color: rgb(101, 188, 34);
+    font-size: 18px;
+    position: absolute;
+    transform: translate(160%, 115%) translateY(-120%);
+}

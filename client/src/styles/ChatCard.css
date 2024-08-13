@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.chat-card {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    border: 1px solid #c4c4c4;
+    border-right: none;
+    background-color: #ffffff;
+    color: #333;
+    height: 70px;
+    align-items: center;
+    border-top: none;
+}
+
+.chat-info {
+    padding-left: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.chat-info p:first-child {
+    font-size: 15px;
+    color: #424242;
+}
+
+
+.date {
+    margin-left: auto;
+    padding-right: 15px;
+    padding-top: 20px;
+    font-size: 13px;
+    margin-bottom: auto;
+    color: #646464;
+}
+
+.chat-card:hover {
+    cursor: pointer;
+}

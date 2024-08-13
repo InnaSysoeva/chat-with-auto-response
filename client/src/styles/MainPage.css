@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-page-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-label {
+    width: 481px;
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: blue;
+    font-size: 17px;
+    border-bottom: 1px solid #c4c4c4;
+}

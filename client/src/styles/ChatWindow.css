@@ -1,0 +1,93 @@
+.chat-window {
+    height: 700px;
+    flex-grow: 1;
+}
+
+.chat-window-closed {
+    height: 900px;
+    flex-grow: 1;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.chat-window-closed p {
+    font-size: 17px;
+    color: #333;
+    text-decoration: underline;
+}
+
+.profile-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    border: 1px solid #c4c4c4;
+    border-bottom: none; 
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.update-chat-btn, .remove-chat-btn {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    height: 30px;
+    width: max-content;
+    padding: 0 10px 0 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.chat-name {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    flex: 1; 
+    white-space: nowrap;
+    overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+.chat-area {
+    height: 615px;
+    border: 1px solid #c4c4c4;
+    border-bottom: none;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.message-input-container {
+    height: 80px;
+    border: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.message-input-container i {
+    position: absolute;
+    left: 900px;
+    top: 33px;
+    z-index: 1;
+    color: #333;
+}
+
+.message-input {
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid #c4c4c4;
+    width: 900px;
+    padding-left: 20px;
+}
+
+.update-chat-btn:hover, .remove-chat-btn:hover {
+    background-color: rgb(206, 220, 255);
+}

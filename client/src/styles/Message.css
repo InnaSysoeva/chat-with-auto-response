@@ -1,0 +1,78 @@
+.message-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message-container-auto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.message-content {
+    height: max-content;
+    min-width: 20px; 
+    max-width: 600px; 
+    width: max-content;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.message-content-auto {
+    height: max-content;
+    width: max-content;
+    border-radius: 20px;
+    border: 1px solid #333;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 14px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 23px; 
+    min-width: 20px; 
+    max-width: 600px; 
+    width: max-content; 
+}
+
+.message-date {
+    font-size: 12px;
+    color: #333;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.update-message-btn {
+    border: none;
+    border-radius: 10px;
+    color: #333;
+    font-size: 13px;
+    width: 45px;
+    height: 23px;
+    background-color: #fff;
+    text-decoration:underline;
+    margin-left: 5px;
+}
+
+.message-date-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.update-message-btn:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}
